@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+<style type="text/css">
+body{
+	margin: 0;  
+    padding: 0;  
+    background-color:#6abadeba;  
+    font-family: 'Arial';
+}
+button{
+width:300px;
+height:30px;
+padding-left:15px;  
+background-color:orange;
+}
+.container{
+  	width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 80px;  
+    background: #23463f;  
+    border-radius: 15px ;
+}
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}
+#Uname{
+	width: 300px;  
+    height: 30px;
+    padding-left:8px;
+} 
+#Pwd{
+	width: 300px;  
+    height: 30px;
+    padding-left:8px;
+}
+</style>
+</head>
+<body>
+<form action="Login.html" method="post">  
+><div class="container"> 
+<label>Name:</label><br>
+<input type="text" name="userName" id="Uname"><br/><br/>  
+<label>Password:</label><br>
+<input type="password" name="userPass" id="Pwd"><br/><br/>  
+<br>Confirm Password:<br>
+<input type="text" name="conPass" id="Pwd"><br/><br/>  
+  
+<button type="submit">Register</button>  
+ </div>  
+</form>  
+</body>
+</html>
